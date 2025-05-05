@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body #root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-password.w-full input {
+  width: 100% !important;
+}
+
+.p-password.w-full .p-icon-field {
+  width: 100% !important;
+}
+
+.p-password.w-full .p-icon-field input {
+  width: 100% !important;
+}
+
+.god {
+  min-height: 100vh;
+}
+
+.god {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-sis {
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.default-footer {
+  width: 100%;
+  box-shadow: 0 0 2px 1px rgb(0, 0, 0, 0.3);
+  display: flex;
+  padding: 1.5rem;
+}
+
+.p-datatable {
+  box-shadow: 0 0 2px 1px rgb(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.custom-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-panel .p-toggleable-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-panel .p-panel-content {
+  flex: 1;
+}
+
+.default-footer {
+  color: rgb(59, 59, 59);
+}

@@ -1,0 +1,31 @@
+.card-login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login-container {
+  background-image: linear-gradient(#06b6d4, #fff);
+}
+
+.card-login {
+  box-shadow: 0 1px 1px 1px rgb(0, 0, 0, 0.2);
+  padding: 2rem;
+  border-radius: 16px;
+  width: 26rem;
+  background-color: rgb(250, 250, 250);
+}
+
+.card-login .card div h1 {
+  color: #06b6d4;
+}
+
+.divider-login {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #06b6d4;
+  margin-top: 5px;
+}
