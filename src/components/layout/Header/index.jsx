@@ -103,6 +103,30 @@ const Header = () => {
     },
   ];
 
+  const funcionario = [
+    {
+      label: "Página Inicial",
+      icon: "pi pi-home",
+      command: () => {
+        navigate("/funcionario/home");
+      },
+    },
+    {
+      label: "Agenda",
+      icon: "pi pi-calendar-clock",
+      command: () => {
+        navigate("/funcionario/agenda");
+      },
+    },
+    {
+      label: "Pacientes",
+      icon: "pi pi-user",
+      command: () => {
+        navigate("/funcionario/agenda");
+      },
+    },
+  ];
+
   return (
     <header className="default-header card">
       <Menubar
@@ -114,7 +138,13 @@ const Header = () => {
             className="logo-sis"
           />
         }
-        model={tipo === "admin" ? admin : paciente}
+        model={
+          tipo === "admin"
+            ? admin
+            : tipo === "paciente"
+            ? paciente
+            : funcionario
+        }
         end={<MenuUser />}
       />
     </header>

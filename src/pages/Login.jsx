@@ -101,7 +101,7 @@ const Login = () => {
                   checked={tipoAcesso === 1}
                 />
                 <label htmlFor="ingredient2" className="ml-2">
-                  Funcionário
+                  Profissional
                 </label>
               </div>
               <div className="flex align-items-center">

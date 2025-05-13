@@ -10,6 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.17",
+    "@fullcalendar/daygrid": "^6.1.17",
+    "@fullcalendar/list": "^6.1.17",
+    "@fullcalendar/timegrid": "^6.1.17",
+    "@schedule-x/events-service": "^2.30.0",
+    "@schedule-x/react": "^2.30.0",
+    "@schedule-x/theme-default": "^2.30.0",
     "axios": "^1.8.4",
     "crypto-js": "^4.2.0",
     "history": "^5.3.0",
