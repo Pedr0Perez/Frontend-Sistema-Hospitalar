@@ -19,7 +19,7 @@ const Historico = () => {
     <DefaultPage title="Histórico">
       <div className="card grid">
         <div className="col-12">
-          <p>Histórico clínico de consultas realizadas</p>
+          <p>Seu histórico clínico de consultas realizadas</p>
         </div>
       </div>
       <div className="card grid">

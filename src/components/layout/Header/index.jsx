@@ -121,8 +121,28 @@ const Header = () => {
     {
       label: "Pacientes",
       icon: "pi pi-user",
+      items: [
+        {
+          label: "Histórico",
+          icon: "pi pi-calendar-clock",
+          command: () => {
+            navigate("/funcionario/pacientes/historico");
+          },
+        },
+        {
+          label: "Prontuário",
+          icon: "pi pi-address-book",
+          command: () => {
+            navigate("/funcionario/pacientes/prontuario");
+          },
+        },
+      ],
+    },
+    {
+      label: "Emitir receita",
+      icon: "pi pi-receipt",
       command: () => {
-        navigate("/funcionario/agenda");
+        navigate("/funcionario/emitirreceita");
       },
     },
   ];

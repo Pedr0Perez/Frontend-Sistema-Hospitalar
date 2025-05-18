@@ -14,6 +14,9 @@ import Historico from "./pages/Paciente/Historico";
 import Notificacoes from "./pages/Paciente/Notificacoes";
 import Teleconsulta from "./pages/Paciente/Teleconsulta";
 import Agenda from "./pages/ProfissionalSaude/Agenda";
+import EmitirReceita from "./pages/ProfissionalSaude/EmitirReceita";
+import HistoricoPacientes from "./pages/ProfissionalSaude/Pacientes/HistoricoPacientes";
+import Prontuario from "./pages/ProfissionalSaude/Pacientes/Prontuario";
 
 const Router = () => {
   return (
@@ -49,6 +52,15 @@ const Router = () => {
         <>
           {/* Rotas de PROFISSIONAIS DE SAÚDE/FUNCIONÁRIOS */}
           <Route element={<Agenda />} path="/:tipo/agenda" />
+          <Route element={<EmitirReceita />} path="/:tipo/emitirreceita" />
+          <Route
+            element={<HistoricoPacientes />}
+            path="/:tipo/pacientes/historico"
+          />
+          <Route
+            element={<Prontuario />}
+            path="/:tipo/pacientes/prontuario"
+          />
         </>
       </Routes>
     </BrowserRouter>
