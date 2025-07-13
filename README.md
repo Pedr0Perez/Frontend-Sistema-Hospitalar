@@ -1,12 +1,24 @@
-# React + Vite
+# Sistema Hospitalar
+ Projeto da faculdade aonde desenvolvo o front-end de um sistema hospitalar com dados simulados.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ ## 📈 Tecnologias Utilizadas
+- ReactJS
+- PrimeReact
+- JavaScript
+- CSS
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Instalação
+- Antes de rodar a aplicação, cerifique-se de ter o NodeJS instalado em sua máquina: https://nodejs.org/pt/download.
+- Clone o repositório
+  ```
+  git clone https://github.com/Pedr0Perez/diferenca-entre-datas
+  cd diferenca-entre-datas
+  ```
+- Instale as dependências
+  ```
+  npm i
+  ```  
+- Rode a aplicação
+  ```
+  npm run dev
+  ```
