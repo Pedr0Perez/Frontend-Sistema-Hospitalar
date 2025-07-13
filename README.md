@@ -11,7 +11,7 @@
 - Antes de rodar a aplicação, cerifique-se de ter o NodeJS instalado em sua máquina: https://nodejs.org/pt/download.
 - Clone o repositório
   ```
-  git clone https://github.com/Pedr0Perez/diferenca-entre-datas
+  git clone https://github.com/Pedr0Perez/Frontend-Sistema-Hospitalar
   cd diferenca-entre-datas
   ```
 - Instale as dependências
